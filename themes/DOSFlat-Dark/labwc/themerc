@@ -1,0 +1,65 @@
+border.width: 2
+
+window.titlebar.padding.width: 4
+window.titlebar.padding.height: 2
+
+window.active.border.color: #00aaaa
+window.inactive.border.color: #303030
+window.active.indicator.toggled-keybind.color: #ffaa00
+
+window.active.title.bg: Solid
+window.active.title.bg.color: #0000aa
+window.inactive.title.bg: Solid
+window.inactive.title.bg.color: #101010
+
+window.active.label.text.color: #ffffff
+window.inactive.label.text.color: #c0c0c0
+window.label.text.justify: Left
+
+window.button.width: 24
+window.button.height: 24
+window.button.spacing: 0
+
+window.button.hover.bg.color: #ffaa0024
+window.button.hover.bg.corner-radius: 0
+
+window.active.button.unpressed.image.color: #ffffff
+window.inactive.button.unpressed.image.color: #c0c0c0
+window.active.button.close.unpressed.image.color: #ff5555
+window.inactive.button.close.unpressed.image.color: #d08a8a
+
+menu.items.padding.x: 8
+menu.items.padding.y: 4
+menu.items.bg.color: #000000
+menu.items.text.color: #c0c0c0
+menu.items.active.bg.color: #0000aa
+menu.items.active.text.color: #ffffff
+
+menu.separator.width: 1
+menu.separator.padding.width: 6
+menu.separator.padding.height: 4
+menu.separator.color: #00aaaa
+
+menu.title.bg.color: #0000aa
+menu.title.text.color: #ffffff
+menu.title.text.justify: Left
+
+osd.bg.color: #000000
+osd.border.width: 2
+osd.border.color: #00aaaa
+osd.label.text.color: #c0c0c0
+
+osd.window-switcher.style-classic.width: 42%
+osd.window-switcher.style-classic.padding: 8
+osd.window-switcher.style-classic.item.padding.x: 8
+osd.window-switcher.style-classic.item.padding.y: 3
+osd.window-switcher.style-classic.item.active.border.width: 2
+osd.window-switcher.style-classic.item.active.border.color: #ffaa00
+osd.window-switcher.style-classic.item.active.bg.color: #101010
+
+snapping.overlay.region.bg.enabled: yes
+snapping.overlay.region.bg.color: #0000aa22
+snapping.overlay.region.border.width: 2
+snapping.overlay.region.border.color: #00aaaa,#ffaa00,#00aaaa
+snapping.overlay.edge.border.width: 2
+snapping.overlay.edge.border.color: #00aaaa,#ffaa00,#00aaaa

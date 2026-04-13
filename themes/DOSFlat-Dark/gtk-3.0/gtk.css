@@ -1,0 +1,170 @@
+@define-color bg #000000;
+@define-color panel #101010;
+@define-color panel_alt #1c1c1c;
+@define-color fg #c0c0c0;
+@define-color fg_muted #8a8a8a;
+@define-color border #00aaaa;
+@define-color titlebar #0000aa;
+@define-color titlebar_text #ffffff;
+@define-color accent #ffaa00;
+@define-color accent_text #000000;
+@define-color focus #55ff55;
+@define-color selection #0000aa;
+
+* {
+  font-family: "Terminus";
+  font-size: 10pt;
+  border-radius: 0;
+  -gtk-icon-shadow: none;
+  text-shadow: none;
+  box-shadow: none;
+  outline-width: 0;
+}
+
+window,
+dialog,
+.background {
+  background-color: @bg;
+  color: @fg;
+}
+
+headerbar,
+.titlebar,
+.titlebar.default-decoration {
+  background-image: none;
+  background-color: @titlebar;
+  color: @titlebar_text;
+  border: 1px solid @border;
+  border-bottom: 2px solid @accent;
+  min-height: 28px;
+  padding: 2px 6px;
+}
+
+headerbar button,
+.titlebar button,
+.titlebar.default-decoration button {
+  background-image: none;
+  background-color: shade(@titlebar, 0.86);
+  color: @titlebar_text;
+  border: 1px solid @border;
+  padding: 4px 8px;
+}
+
+button,
+.button,
+spinbutton button,
+combobox button {
+  background-image: none;
+  background-color: @panel;
+  color: @fg;
+  border: 1px solid @border;
+  padding: 5px 10px;
+}
+
+button:hover,
+.button:hover,
+spinbutton button:hover,
+combobox button:hover {
+  background-color: @panel_alt;
+  border-color: @accent;
+}
+
+button:active,
+.button:active,
+button:checked,
+.button:checked,
+spinbutton button:active,
+combobox button:checked {
+  background-color: @accent;
+  color: @accent_text;
+  border-color: @accent;
+}
+
+button:focus,
+.button:focus,
+entry:focus,
+textview:focus,
+treeview.view:focus {
+  border-color: @focus;
+}
+
+entry,
+spinbutton,
+textview,
+treeview.view,
+list,
+row,
+flowboxchild,
+scrolledwindow,
+frame,
+notebook > stack {
+  background-image: none;
+  background-color: @panel;
+  color: @fg;
+  border: 1px solid @border;
+}
+
+entry selection,
+textview selection,
+treeview.view:selected,
+iconview:selected,
+flowboxchild:selected {
+  background-color: @selection;
+  color: @titlebar_text;
+}
+
+notebook > header {
+  background-color: @bg;
+  border-bottom: 1px solid @border;
+}
+
+notebook > header tab {
+  background-image: none;
+  background-color: @panel;
+  color: @fg_muted;
+  border: 1px solid @border;
+  padding: 5px 10px;
+}
+
+notebook > header tab:checked {
+  background-color: @accent;
+  color: @accent_text;
+  border-color: @accent;
+}
+
+menu,
+popover,
+.context-menu {
+  background-color: @panel;
+  color: @fg;
+  border: 1px solid @border;
+}
+
+menuitem,
+modelbutton {
+  padding: 6px 10px;
+}
+
+menuitem:hover,
+modelbutton:hover {
+  background-color: @accent;
+  color: @accent_text;
+}
+
+scrollbar {
+  background-color: @bg;
+  border: 1px solid @border;
+}
+
+scrollbar slider {
+  background-color: @panel_alt;
+  border: 1px solid @accent;
+  min-width: 12px;
+  min-height: 12px;
+}
+
+tooltip {
+  background-color: @panel_alt;
+  color: @fg;
+  border: 1px solid @accent;
+}

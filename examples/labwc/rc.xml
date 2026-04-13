@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<labwc_config>
+  <theme>
+    <name>DOSFlat-Dark</name>
+    <icon>hicolor</icon>
+    <titlebar>
+      <layout>menu:iconify,max,close</layout>
+      <showTitle>yes</showTitle>
+    </titlebar>
+    <cornerRadius>0</cornerRadius>
+    <keepBorder>yes</keepBorder>
+    <dropShadows>no</dropShadows>
+    <font place="ActiveWindow">
+      <name>Terminus</name>
+      <size>10</size>
+    </font>
+    <font place="InactiveWindow">
+      <name>Terminus</name>
+      <size>10</size>
+    </font>
+    <font place="MenuItem">
+      <name>Terminus</name>
+      <size>10</size>
+    </font>
+    <font place="MenuHeader">
+      <name>Terminus</name>
+      <size>10</size>
+    </font>
+    <font place="OnScreenDisplay">
+      <name>Terminus</name>
+      <size>10</size>
+    </font>
+  </theme>
+</labwc_config>
