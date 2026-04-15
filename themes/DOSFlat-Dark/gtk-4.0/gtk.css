@@ -12,7 +12,7 @@
 @define-color selection #0000aa;
 
 * {
-  font-family: "Terminus", "Noto Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 10pt;
   border-radius: 0;
   box-shadow: none;
